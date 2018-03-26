@@ -1,7 +1,7 @@
 # Neopixel-Dueldisk
 Animating some Adafruit NeoPixel strips
 
-This repository contains a small scripts to animate a bunch of short Adafruit NeoPixel strips which are embedded in the cosplay prop of my girlfriend. The prop is a replication of the [duel disk](http://yugioh.wikia.com/wiki/Duel_Disk#Duel_Disk_.28version_3.29) from the Yu-Gi-Oh! movie 'Dark Side of Dimensions':
+This repository contains a small script to animate a bunch of short Adafruit NeoPixel strips which are embedded in the cosplay prop of my girlfriend. The prop is a replica of the [duel disk](http://yugioh.wikia.com/wiki/Duel_Disk#Duel_Disk_.28version_3.29) from the Yu-Gi-Oh! movie 'Dark Side of Dimensions':
 
 ![Duel Disk v3][disk]
 
