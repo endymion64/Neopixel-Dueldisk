@@ -1,0 +1,58 @@
+# My altered Pro Trinket Boards
+#
+# For more information see:
+# - https://github.com/arduino/Arduino/wiki/Arduino-IDE-1.5---3rd-party-Hardware-specification
+# - https://github.com/arduino/Arduino/wiki/Arduino-Hardware-Cores-migration-guide-from-1.0-to-1.6
+#
+
+##############################################################
+# Pro-Trinket 5V USB Programming Configuration
+protrinket58.name=Pro Trinket 5V (USB Prescale /2 - 8MHz)
+protrinket58.bootloader.tool=arduino:avrdude
+protrinket58.build.mcu=atmega328p
+protrinket58.build.f_cpu=8000000L
+protrinket58.build.core=arduino:arduino
+protrinket58.build.variant=arduino:eightanaloginputs
+protrinket58.build.board=AVR_PROTRINKET5
+protrinket58.upload.tool=arduino:usbtiny
+protrinket58.upload.maximum_size=28672
+protrinket58.upload.speed=115200
+
+##############################################################
+# Pro-Trinket 5V USB Programming Configuration
+protrinket54.name=Pro Trinket 5V (USB Prescale /4 - 4MHz)
+protrinket54.bootloader.tool=arduino:avrdude
+protrinket54.build.mcu=atmega328p
+protrinket54.build.f_cpu=4000000L
+protrinket54.build.core=arduino:arduino
+protrinket54.build.variant=arduino:eightanaloginputs
+protrinket54.build.board=AVR_PROTRINKET5
+protrinket54.upload.tool=arduino:usbtiny
+protrinket54.upload.maximum_size=28672
+protrinket54.upload.speed=115200
+
+##############################################################
+# Pro-Trinket 5V USB Programming Configuration
+protrinket52.name=Pro Trinket 5V (USB Prescale /8 - 2MHz)
+protrinket52.bootloader.tool=arduino:avrdude
+protrinket52.build.mcu=atmega328p
+protrinket52.build.f_cpu=2000000L
+protrinket52.build.core=arduino:arduino
+protrinket52.build.variant=arduino:eightanaloginputs
+protrinket52.build.board=AVR_PROTRINKET5
+protrinket52.upload.tool=arduino:usbtiny
+protrinket52.upload.maximum_size=28672
+protrinket52.upload.speed=115200
+
+##############################################################
+# Pro-Trinket 5V USB Programming Configuration
+protrinket51.name=Pro Trinket 5V (USB Prescale /16 - 1MHz)
+protrinket51.bootloader.tool=arduino:avrdude
+protrinket51.build.mcu=atmega328p
+protrinket51.build.f_cpu=1000000L
+protrinket51.build.core=arduino:arduino
+protrinket51.build.variant=arduino:eightanaloginputs
+protrinket51.build.board=AVR_PROTRINKET5
+protrinket51.upload.tool=arduino:usbtiny
+protrinket51.upload.maximum_size=28672
+protrinket51.upload.speed=115200
